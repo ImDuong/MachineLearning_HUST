@@ -1,0 +1,26 @@
+# Reference: 
+
+## Competition:
+- https://www.kaggle.com/venky73/spam-mails-dataset
+
+## Train:
+- https://github.com/singhlaaman/Email-Spam-filtering-with-Enron-Dataset
+- https://www.kaggle.com/anirudhchandnani/bi-directional-lstm-nlp-spam-detection-98-accu
+
+
+## Design:
+- https://towardsdatascience.com/email-spam-detection-1-2-b0e06a5c0472
+
+## Data:
+- https://github.com/tasdikrahman/datasets/tree/master/email/plaintext
+- https://archive.ics.uci.edu/ml/datasets/spambase
+- http://www2.aueb.gr/users/ion/data/enron-spam/
+- https://github.com/zrz1996/Spam-Email-Classifier-DataSet
+	+ data cần được sắp xếp vào các folder tương ứng dựa vào label
+
+
+- https://www.kaggle.com/c/email-spam/data
+
+- 1 số dataset ở dưới dạng raw sẽ được clean và preprocess (đồng nhất case, bỏ stop words, vvv) để thành chuẩn chung
+- Các dataset sẽ được gộp chung thành 1 dataset lớn
+- Dataset lớn sẽ được chia thành 2 nhóm: 1 là nhóm để train dữ liệu, 2 là nhóm để kiểm tra độ chính xác của model
