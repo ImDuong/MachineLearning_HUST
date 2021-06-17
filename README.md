@@ -13,3 +13,7 @@ Submission Project for ML &amp; DM class
 
 4. Folder `core`
 - `SpamBaseLearning.ipynb`: learning script from spam base data
+
+# Execution Instruction
+1. In folder `processed_data_script`. Execute `SpamBasePreprocessData.ipynb`
+2. In folder `core`. Execute `SpamBaseLearning.ipynb`
